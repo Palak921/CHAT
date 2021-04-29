@@ -1,8 +1,60 @@
-.App {
+ .App {
+  /* text-align: center; */
+  overflow-y: scroll;
+}
+/*
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
   text-align: center;
+  padding: 0%;
 }
 
-.App-logo {
+.LeftSideContact {
+  border-top: 0;
+  flex: 35%;
+  width: 35% !important;
+  overflow-x: hidden; 
+}
+
+.RightSide{
+  flex: 65%;
+}
+
+/* @media (max-width: 1022px) {
+  /* .flex-container {
+    flex-direction: column;
+  } */
+
+  /* .LeftSideContact{
+    flex: 50%;
+    width: 50% !important;
+  overflow-x: hidden; 
+}
+  
+
+  .ChatDiv{
+    flex: 50%;
+  }
+
+  .RightSide{
+    display:none !important;
+  } */
+/* } */
+
+
+
+/* 
+
+@media (max-width: 700px) {
+  .LeftSideContact{
+    display: none;
+  }
+ 
+} */
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -35,4 +87,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */ 

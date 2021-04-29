@@ -1,0 +1,148 @@
+h5,p {
+    margin:1px;
+  
+  }
+  .userName p{
+    font-weight: 100;
+    font-size: 17px;
+  }
+  svg {
+    margin: 1px 5px;
+  }
+  .userInfo {
+    margin: 20px;
+  }
+  
+  /* midContainer */
+  .chat {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+  }
+  
+  
+  .chat_header {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    box-shadow: -4px -3px 11px 2px rgba(0,0,0,0.35);
+  }
+  .chat_headerInfo {
+    flex:1;
+  }
+  
+  .chat_headerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+  }
+  
+  .chat_headerInfo > h3 {
+    margin: 0;
+    margin-left:23px;
+  }
+  
+  
+  .chat_body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    position: relative;
+  }
+  
+  .chat_message {
+    width: fit-content;
+    max-width: 70%;
+    padding: 20px;
+  }
+  .chat_sender {
+    align-self:flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat_sender .message_content {
+    padding: 12px;
+    border-radius: 10px 10px 0px 10px;
+    background-color: #366ef7;
+    margin-right: 50px;
+  }
+  
+  .chat_timestemp {
+    font-size: xx-small;
+  }
+  
+  .chat_sender .avatar {
+    align-self: flex-end;
+  }
+  
+  .chat_receiver .message_content {
+    padding: 12px;
+    border-radius: 10px 10px 10px 0px;
+    background-color:#e2e4e1;
+    margin-left: 40px;
+    
+  }
+  
+  
+  
+  .chat_body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .chat_footer{
+    display: flex;
+    justify-content: space-between;
+    height: 62px;
+    background-color:#e2e4e1;
+    border: 1px solid lightgray;
+    box-shadow: 0px 1px 6px 0px;
+  }
+  
+  .chat_footerRight{
+    display: flex;
+    justify-content: space-between;
+    min-width: 100px;
+  }
+  
+  .chat_footer > form{
+    flex : 1;
+    display: flex;
+    overflow: auto;
+   
+  }
+  
+  
+  .chat_footer > form > input{
+    flex:1;
+    border-radius: 30px;
+    border: none;
+    margin: 0 10px 0px 10px;
+    background-color:#e2e4e1;
+  }
+  
+  button[type="submit"] {
+            /* border-radius: 50%; */
+            /* height: 43px;
+            margin: auto 23px; */
+   border:none;
+    background-color:#366ef7;
+   
+  }
+  .svg-inline--fa .fa-location-arrow {
+    color: wheat;
+  }
+  
+  .chat_footer > form > input:focus{
+    border: none;
+    outline:none;
+  } 
+
+ @media (max-width:700px) {
+   .Show{
+     display: none;
+   }
+ }
+  

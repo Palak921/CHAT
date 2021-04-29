@@ -1,0 +1,20 @@
+.chatList{
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.chatList:hover{
+    background-color: #366ef7;
+}
+
+.chat_info > h2{
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.chat_info{
+    margin-left: 15px;
+}
