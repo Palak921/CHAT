@@ -25,19 +25,19 @@ class ChatDiv extends React.Component {
   render() {
     return (
       <div >
-        <AppBar position="static" style={{ backgroundColor: '#f8f8f8', color: 'black', boxShadow:'0px' }} elevation={0}>
+        <AppBar position="static" style={{ backgroundColor: '#f8f8f8', color: 'black', boxShadow: '0px' }} elevation={0}>
           <Toolbar style={{ width: '100%' }}>
             <IconButton edge="start" style={{ marginRight: '2%', color: "#3c4fa2" }} aria-label="menu">
               <MenuIcon onClick={this.MenuIconClicked} />
             </IconButton>
             <div ><h3>Elizabeth Nelson</h3></div>
             <div>
-              <IconButton>
+              <IconButton style={{ backgroundColor: '#366ef7', height: '40px', width: '50px', color: 'white', margin: '7px 7px 7px 7px ' }} >
                 <PhoneOutlinedIcon />
               </IconButton>
             </div>
             <div >
-              <IconButton>
+              <IconButton style={{ backgroundColor: '#366ef7', height: '40px', width: '50px', color: 'white', margin: '7px ' }} >
                 <VideocamOutlinedIcon />
               </IconButton>
             </div>
@@ -45,7 +45,7 @@ class ChatDiv extends React.Component {
         </AppBar>
         <DrawerToggle open={this.state.open} />
 
-      </div>
+      </div >
     )
   }
 }

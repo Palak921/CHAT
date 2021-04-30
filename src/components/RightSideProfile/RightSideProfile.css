@@ -63,10 +63,13 @@ h5,p {
   }
   
   .chat_sender .message_content {
-    padding: 12px;
+    padding: 20px;
     border-radius: 10px 10px 0px 10px;
     background-color: #366ef7;
+    color:white;
+    font-weight: 200;
     margin-right: 50px;
+    font-size: smaller;
   }
   
   .chat_timestemp {
@@ -78,14 +81,22 @@ h5,p {
   }
   
   .chat_receiver .message_content {
-    padding: 12px;
+    padding: 20px;
     border-radius: 10px 10px 10px 0px;
     background-color:#e2e4e1;
     margin-left: 40px;
+    font-weight: 200;
+    font-size: smaller;
     
   }
   
-  
+  .customStyle { 
+     background-color:#366ef7 !important;  
+     height: 40px;
+       width: 50px;
+         color:white  !important; 
+          margin: 7px !important;
+        }
   
   .chat_body::-webkit-scrollbar {
     display: none;

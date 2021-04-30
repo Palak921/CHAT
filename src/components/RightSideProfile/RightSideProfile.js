@@ -10,6 +10,7 @@ import CloseIcon from '@material-ui/icons/Close';
 import { AttachFile } from '@material-ui/icons';
 import { Avatar, IconButton } from '@material-ui/core';
 import EmojiEmotionsOutlinedIcon from '@material-ui/icons/EmojiEmotionsOutlined';
+import NearMeOutlinedIcon from '@material-ui/icons/NearMeOutlined';
 import LeftSideContact from '../LeftSideContact/LeftSideContact';
 import ChatDiv from '../ChatDiv/ChatDiv';
 
@@ -190,14 +191,14 @@ function MidContainer({ openSidebar }) {
               <AttachFile />
             </IconButton>
             {/* <button type="submit" ><FontAwesomeIcon icon={faLocationArrow}/></button> */}
-            <IconButton type="submit" ><FontAwesomeIcon icon={faLocationArrow} /></IconButton>
+            <IconButton type="submit" className="customStyle"><NearMeOutlinedIcon/></IconButton>
           </div>
         </form>
 
       </div>
 
-    </div>
-
+    </div> 
+ 
 
   )
 }
@@ -234,7 +235,7 @@ function LeftSideContent({ close }) {
 
       <div className="userName">
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: "center" }}>
-          <img style={{ borderRadius: "50%", width: '70%', margin: '14px 11px' }} src={dummy} alt="" />
+          <img style={{ borderRadius: "50%", width: '60%', margin: '14px 11px' }} src={dummy} alt="" />
 
           <h5>Elizabeth Nelson</h5>
           <p>Founder, Avn</p>

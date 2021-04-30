@@ -30,7 +30,7 @@ class Search extends React.Component {
                         
                     </Grid>
                         <Grid item xs={2}>
-                            <AddCircleRoundedIcon style={{ fontSize: '30px', marginTop: '15px' }} />
+                            <AddCircleRoundedIcon style={{ fontSize: '28px', marginTop: '15px', marginRight:'3px' }} />
                         </Grid>
                     </Grid>
 
